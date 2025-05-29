@@ -2,26 +2,28 @@
    DARK THEME
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
+/* Xcode Dark Mode-inspired colors */
+$gray                       : #7d8696;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$background                 : #282c34; /* Deep dark gray (Xcode's editor background) */
+$background-light           : mix(#fff, $background, 70%);
+$background-lighter         : mix(#fff, $background, 85%);
+$text                       : #e5e6eb; /* Soft gray-white for readability */
+$link                       : #3fb9ff; /* Apple's signature blue */
+$link-dark                  : mix(#000, $link, 30%);
+$link-light                 : mix(#fff, $link, 35%);
 
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+/* Xcode-inspired site-specific colors */
+$danger-color               : #ff375f; /* Apple Red */
+$info-color                 : #64d2ff; /* Light blue accent */
+$notice-color               : #7d8696;
+$success-color              : #34c759; /* Apple Green */
+$warning-color              : #ff9f0a; /* Bright orange */
+
+
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
