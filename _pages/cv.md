@@ -27,6 +27,9 @@ redirect_from:
   * @Division of Herb Economy, DTAM, Ministry of Public Health (Nonthaburi, Thailand)
   * **Activities:** drug information service (DIS), traditional Thai medicine
 -->
+* Jul - Sep 2025: **DIS Intern**
+  * @Division of Herb Economy, Department of Thai Traditional and Alternative Medicine, Ministry of Public Health of Thailand (Nonthaburi, Thailand)
+
 * Mar - Jul 2025: **PD/QA/QC Intern**
   * @Charoen Bhaesaj Lab Co.,Ltd. (Bangkok, Thailand)
   * **Activities:** production (PD), quality assurance (QA), quality control (QC)
