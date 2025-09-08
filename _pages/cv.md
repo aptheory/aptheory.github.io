@@ -19,14 +19,11 @@ redirect_from:
   * @Herbal Products Division, FDA (Nonthaburi, Thailand)
   * **Activities:** regulatory affairs (RA)
 
-* *(expected)* Sep - Nov 2025: **Research Intern**
-  * @Natural Drug Discovery Lab, Institute of Natural Medicine, University of Toyama (Toyama, Japan)
-  * **Supervisor:** Assoc.Prof.Dr. Suresh Awale
-
-* *(expected)* Jul - Sep 2025: **DIS Intern**
-  * @Division of Herb Economy, DTAM, Ministry of Public Health (Nonthaburi, Thailand)
-  * **Activities:** drug information service (DIS), traditional Thai medicine
 -->
+* Sep - Nov 2025: **Research Intern**
+  * @Natural Drug Discovery Lab, Institute of Natural Medicine, University of Toyama (Toyama, Japan)
+  * **Supervisor:** Associate Professor Suresh Awale, PhD and Assistant Professor Juthamart Maneenet, PhD
+
 * Jul - Sep 2025: **DIS Intern**
   * @Division of Herb Economy, Department of Thai Traditional and Alternative Medicine, Ministry of Public Health of Thailand (Nonthaburi, Thailand)
 
@@ -42,12 +39,12 @@ redirect_from:
 * Apr - Jun 2023: **ML Research Intern**
   * @QSAR Labs, Faculty of Pharmaceutical Sciences, Khon Kaen University (Khon Kaen, Thailand)
   * **Activities:** cell culture data analysis, machine learning (ML) model training
-  * **Supervisor:** Asst.Prof.Dr. Tarapong Srisongkram
+  * **Supervisor:** Assistant Professor Tarapong Srisongkram, PhD
 
 * May 2022: **Junior DL Research Assistant**
   * @QSAR Labs, Faculty of Pharmaceutical Sciences, Khon Kaen University (Khon Kaen, Thailand)
   * **Activities:** computer vision deep learning (DL) on identification of 20 classes of pill
-  * **Supervisor:** Asst.Prof.Dr. Tarapong Srisongkram
+  * **Supervisor:** Assistant Professor Tarapong Srisongkram, PhD
 
 ## Skills
 * Pharmacist core competencies
