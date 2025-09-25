@@ -22,11 +22,11 @@ repository               : "aptheory/aptheory.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  current_project  : "AppHerb Language Model"  
+  current_project  : "extracting compounds from plants"  
   avatar           : "bio-photo-thanawatpi.png"
   name             : "Thanawat Piyasawetkul"
   name_th          : "ธนวัชญ์ ปิยะเศวตกุล"
-  name_jp          : "タナワット・ピヤサウェットグン"  
+  name_jp          : "タナワット・ピヤサウェットクン"  
   pronouns         :  # "he/him"
   bio              : "Pharmaceutical Sciences Student Skilled in AI"
   location         : "Khon Kaen, Thailand"
@@ -41,7 +41,7 @@ author:
   impactstory      :  # URL
   orcid            : "http://orcid.org/0009-0001-9471-2433"
   semantic         :  # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=thanawat+piyasawetkul"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=thanawat+piyasawetkul"
   researchgate     :  # URL
   scopus           :  # URL
 
@@ -71,8 +71,8 @@ author:
   steam            :  # Username
   telegram         :  # URL
   tumblr           :  # Username
-  twitter          :  # "thanawatpi"
-  threads          : "aptheory"
+  twitter          :  "thanawatpi"
+  threads          : #"aptheory"
   vine             :  # Username
   weibo            :  # Username
   wikipedia        :  # Username

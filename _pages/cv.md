@@ -8,6 +8,14 @@ redirect_from:
 ---
 
 {% include base_path %}
+<style>
+.cv-section { margin-top: 2em; }
+.cv-role { font-weight: bold; }
+.cv-org { color: #555; }
+.cv-date { font-style: italic; color: #888; }
+.cv-pub-title { font-weight: 500; }
+.cv-pub-meta { font-size: 0.95em; color: #888; margin-left: 8px; }
+</style>
 ---
 ## Education
 
@@ -20,7 +28,7 @@ redirect_from:
   * **Activities:** regulatory affairs (RA)
 
 -->
-* Sep - Nov 2025: **Research Intern**
+* Sep - Nov 2025: **Research Intern** 
   * @Natural Drug Discovery Lab, Institute of Natural Medicine, University of Toyama (Toyama, Japan)
   * **Supervisor:** Associate Professor Suresh Awale, PhD and Assistant Professor Juthamart Maneenet, PhD
 
@@ -32,7 +40,7 @@ redirect_from:
   * **Activities:** production (PD), quality assurance (QA), quality control (QC)
 
 * Jul 2023 - Jul 2024: **Web Developer**
-  * @Pharmaceutical Students' Association of Thailand (PSAT) [Online]
+  * @Pharmaceutical Students' Association of Thailand (PSAT) 
   * **Activities:** low-code web development
   * Visit the official PSAT website [here](https://www.psat-th.org/)
 
@@ -59,4 +67,5 @@ redirect_from:
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+
