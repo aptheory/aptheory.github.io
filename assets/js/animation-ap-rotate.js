@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Text options for rotation
-    const names = ["สวัสดีครับ ผมชื่ออั่งเปา !", "こんにちは、アンパオです！", "Hi, I'm Aungpao !"];
+    const names = ["สวัสดีครับ ผมชื่ออั่งเปา !", "こんにちは、タナワットです！", "Hi, I'm Thanawat !"];
     let index = 0;
     const nameElement = document.getElementById("name");
 
