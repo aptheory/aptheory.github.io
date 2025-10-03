@@ -9,7 +9,7 @@ render_with_liquid: true
 
 <!-- START: rotating text animation -->
 <h2 align="center">
-  <span id="name" class="animated-text">Hi, I'm Aungpao !</span>
+  <span id="name" class="animated-text">Hi, I'm Thanawat !</span>
 </h2>
 
 <style>

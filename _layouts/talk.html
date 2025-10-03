@@ -2,6 +2,39 @@
 layout: default
 ---
 
+<style>
+  /* Talk metadata layout */
+  .talk-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .talk-title-section {
+    flex: 1;
+  }
+  
+  .talk-meta-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    white-space: nowrap;
+  }
+  
+  @media (max-width: 768px) {
+    .talk-header-wrapper {
+      flex-direction: column;
+      gap: 0.5em;
+    }
+    
+    .talk-meta-section {
+      width: 100%;
+    }
+  }
+</style>
+
 {% include base_path %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -26,25 +59,25 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta">{% include read-time.html %}</p>
-            <!-- 
-            <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p> -->
-          {% endif %}
-        {% if page.modified %}
-          <!--
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-          -->
-          <p class="page__date"><strong>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <!--
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-          -->
-          <p class="page__date"><strong>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
-
+          <div class="talk-header-wrapper">
+            <div class="talk-title-section">
+              {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+              {% if page.read_time %}
+                <p class="page__meta">{% include read-time.html %}</p>
+              {% endif %}
+            </div>
+            
+            <div class="talk-meta-section">
+              {% if page.modified %}
+                <p class="page__date"><strong>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+              {% elsif page.date %}
+                <p class="page__date"><strong>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+              {% endif %}
+              {% if page.talk_type %}
+                <p>{{page.talk_type}} at {{ page.venue }}, {{page.location}}</p>
+              {% endif %}
+            </div>
+          </div>
         </header>
       {% endunless %}
 
