@@ -24,16 +24,16 @@ redirect_from:
 
 ## Work experience
 
-* Dec 2025 - Jan 2026: **RA Intern** (2 months)
+* Dec 2025 - Jan 2026: **Regulatory Affairs (RA) Intern** (2 months)
   * @Herbal Products Division, FDA (Nonthaburi, Thailand)
-  * **Activities:** regulatory affairs (RA)
 
 * Sep - Nov 2025: **Research Intern** (3 months)
   * @Institute of Natural Medicine, University of Toyama (Toyama, Japan)
   * **Supervisor:** Associate Professor Suresh Awale, PhD and Assistant Professor Juthamart Maneenet, PhD
+  * * **Activities:** natural compound extractions
 
-* Jul - Sep 2025: **DIS Intern** (2 months)
-  * @Division of Herb Economy, Department of Thai Traditional and Alternative Medicine, Ministry of Public Health of Thailand (Nonthaburi, Thailand)
+* Jul - Sep 2025: **Drug Information Services (DIS) Intern** (2 months)
+  * @Division of Herb Economy, Department of Thai Traditional and Alternative Medicine, Ministry of Public Health (Nonthaburi, Thailand)
 
 * Mar - Jul 2025: **PD/QA/QC Intern** (5 months)
   * @Charoen Bhaesaj Lab Co.,Ltd. (Bangkok, Thailand)
@@ -57,11 +57,7 @@ redirect_from:
 ## Skills
 * Pharmacist core competencies
 * Languages: <i class="fa-brands fa-python"></i> Python, <i class="fa-solid fa-database fa-sm"></i> SQL
-* Frameworks: Torch, Streamlit
 * <i class="fa-solid fa-microchip"></i> Artificial intelligence
-  * Natural language processing
-  * Prompt engineering
-  * Classfication models
 
 ## Publications
   <ul>{% for post in site.publications reversed %}
