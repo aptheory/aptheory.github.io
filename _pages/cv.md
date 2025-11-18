@@ -30,7 +30,7 @@ redirect_from:
 * Sep - Nov 2025: **Research Intern** (3 months)
   * @Institute of Natural Medicine, University of Toyama (Toyama, Japan)
   * **Supervisor:** Associate Professor Suresh Awale, PhD and Assistant Professor Juthamart Maneenet, PhD
-  * * **Activities:** natural compound extractions
+  * **Activities:** natural compound extractions
 
 * Jul - Sep 2025: **Drug Information Services (DIS) Intern** (2 months)
   * @Division of Herb Economy, Department of Thai Traditional and Alternative Medicine, Ministry of Public Health (Nonthaburi, Thailand)
@@ -57,7 +57,7 @@ redirect_from:
 ## Skills
 * Pharmacist core competencies
 * Languages: <i class="fa-brands fa-python"></i> Python, <i class="fa-solid fa-database fa-sm"></i> SQL
-* <i class="fa-solid fa-microchip"></i> Artificial intelligence
+* <i class="fa-solid fa-microchip"></i> Artificial intelligence: ML, DL
 
 ## Publications
   <ul>{% for post in site.publications reversed %}
